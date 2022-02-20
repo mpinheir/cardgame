@@ -6,22 +6,20 @@
 </head>
 
 <body>
-  The house hand:<div id="board" style="display: block;">
+  The house hand: <div id="playerCards">
+    <div id="playerCard1"></div>
+    <div id="playerCard2"></div>
+  </div>
+  <hr />
+  Player's hand:<div id="board" style="display: block;">
     <div id="card1"></div>
     <div id="card2"></div>
     <div id="card3"></div>
     <div id="card4"></div>
     <div id="card5"></div>
   </div>
-  <hr />
-  Player's hand:
-  <div id="playerCards">
-    <div id="playerCard1"></div>
-    <div id="playerCard2"></div>
-    <button onclick="javascript: nextStep(this);">Reveal first 3 cards</button>
-    <div id="SCORE" class="score">Your Score here</div>
-  </div>
-
+  <button onclick="javascript: nextStep(this);">Reveal first 3 cards</button>
+  <div id="SCORE" class="score">Your Score here</div>
   <script src="script.js"></script>
 </body>
 
