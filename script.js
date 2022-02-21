@@ -89,8 +89,8 @@ updateScore(score);
 
 
 function updateScore(score) {
-  let placar = document.getElementById("SCORE");
-  placar.innerHTML = score.toString();
+  let placar = document.getElementById("score");
+  placar.innerHTML = "Score: " + score.toString();
 }
 
 function deal() {

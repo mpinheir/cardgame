@@ -47,15 +47,13 @@ BUTTON {
   
 }
 
-SCORE {
-  cursor: pointer;
-  width:200px;
-  height:40px;
-  color: aquamarine;
-  padding-left: 40px;
-  text-align:center;
-  margin:20px;
-  border-radius: 5px;
-  
+#score {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  transform-style: preserve-3d;
+  font-size:90px;
+  line-height: 90px;
 }
 
